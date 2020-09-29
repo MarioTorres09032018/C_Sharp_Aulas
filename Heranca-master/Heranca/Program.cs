@@ -24,7 +24,6 @@ namespace Aula
             string escolha = "1";
             string digitado;
             int tentativas = 0;
-            string dtnascimento; //NOVA VARIAVEL "dtnascimento" DO TIPO "string" CRIADA NA TENTATIVA DE CONVERTER O "DateTime".
             
             
 
@@ -56,7 +55,7 @@ namespace Aula
                 Escrever("Digite sua Data Nascimento.....:");
                 DateTime dtnascimento = Convert.ToDateTime(Console.ReadLine());
 
-                while (digitado != dtnascimento) ;
+                //while (digitado != dtnascimento) ;
                 Console.Clear();
 
                 Console.WriteLine("DATA INVALIDA");
