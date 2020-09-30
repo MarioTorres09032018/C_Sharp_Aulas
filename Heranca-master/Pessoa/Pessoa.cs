@@ -36,7 +36,7 @@ namespace Aula
 
                 if (Directory.Exists(pasta))
                 {
-                    Console.WriteLine("**Um Diretório de Cadastro de Usuários foi criado em C:Temp. Aperte ENTER para continuar**");
+                    Console.WriteLine("**Um Diretório de Cadastro de Usuários foi criado em C:CADASTRO. Aperte ENTER para continuar**");
                 }
                 else 
                 {
