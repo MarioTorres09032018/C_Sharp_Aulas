@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "HjG+oQwVJEdWEg2DtdyPfGNpYpClHzWk+A3KUjdTDKFpVV6AWYGgUZR1uAnJ1ZB4ySNYehhOV/d5Am/cY7r4ng==",
+  "dgSpecHash": "t/xZWAZ0mCVMaX56yrmEqVJVReyaXJmos5nU+NJFrfxfATdScgdLG7TirkLd53+CEk9sLa1VASWF/9wJjkZmPg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MARIO TORRES\\Documents\\Visual Studio 2019\\Projects Paralelos\\Heranca-master\\Pessoa\\Cadastro.csproj",
+  "projectFilePath": "C:\\Users\\Portaria1 Unlimited\\Desktop\\Heranca-master\\Pessoa\\Cadastro.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\MARIO TORRES\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\Portaria1 Unlimited\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }

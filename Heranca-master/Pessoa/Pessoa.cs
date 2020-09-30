@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.IO;
+using System.Security.Cryptography.X509Certificates;
 using System.Text.Json.Serialization;
 
 namespace Aula
@@ -27,13 +28,30 @@ namespace Aula
             }
 
         }
-
         public void Gravar()
         {
-            //salva em um arquivo de txt
-            File.WriteAllText(@"c:\Temp\CadastroUsuarios.txt",
-                              JsonConvert.SerializeObject(this));
-        }
+            //Verifica se o diretório existe
+            {
+                string pasta = @"c:\Temp";
 
+                if (Directory.Exists(pasta))
+                {
+                    Console.WriteLine("**Um Diretório de Cadastro de Usuários foi criado em C:Temp. Aperte ENTER para continuar**");
+                }
+                else 
+                {
+                    Console.WriteLine("**O Diretório Não Existe. Para cria-lo agora aperte ENTER**");
+                }
+            }
+            //Cria um Novo Diretório
+            string diretorio = @"c:\Temp";
+            Directory.CreateDirectory(diretorio);
+
+            //salva em um arquivo de txt
+            File.WriteAllText(@"c:\Temp\CadastroUsuarios.txt", JsonConvert.SerializeObject(this));
+            Console.ReadKey(true);
+        }
     }
 }
+
+ 

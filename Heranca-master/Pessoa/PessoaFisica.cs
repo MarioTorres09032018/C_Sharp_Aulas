@@ -6,8 +6,8 @@ namespace Aula
 {
     public class PessoaFisica : Pessoa 
     {
-        public PessoaFisica(string nome, string sobrenome, DateTime dataNascimento 
-                            ,string cpf, string rg, string cordosolhos)
+        public PessoaFisica(string nome, string sobrenome, string cpf, string rg, DateTime dataNascimento, string cordosolhos)
+
                             : base(nome, sobrenome, dataNascimento,cordosolhos)
         {
             CPF = cpf;
