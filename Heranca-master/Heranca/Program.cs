@@ -19,6 +19,8 @@ namespace Aula
             Console.ReadLine();
 
             string escolha = "1 - Base de Pessoal";
+            bool digitado=true;
+            
 
             while (escolha != "1")
             {
@@ -38,7 +40,6 @@ namespace Aula
                 Escrever("Digite sua Data Nascimento.....:");
                 DateTime dtnascimento = Convert.ToDateTime(Console.ReadLine());
 
-                // while (digitado dtnascimento) ;
                 Console.Clear();
 
                 Escrever("Digite a cor dos seus olhos.....:");
@@ -95,7 +96,6 @@ namespace Aula
                 Escrever("Digite sua Data Nascimento.....:");
                 DateTime dtnascimento = Convert.ToDateTime(Console.ReadLine());
 
-                // while (digitado dtnascimento) ;
                 Console.Clear();
 
                 Escrever("Digite a cor dos seus olhos.....:");
@@ -155,7 +155,6 @@ namespace Aula
                 Escrever("Digite sua Data Nascimento.....:");
                 DateTime dtnascimento = Convert.ToDateTime(Console.ReadLine());
 
-                // while (digitado dtnascimento) ;
                 Console.Clear();
 
                 Escrever("Digite a cor dos seus olhos.....:");
