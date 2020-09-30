@@ -32,7 +32,7 @@ namespace Aula
         {
             //Verifica se o diretório existe
             {
-                string pasta = @"c:\Temp";
+                string pasta = @"c:\CADASTRO";
 
                 if (Directory.Exists(pasta))
                 {
@@ -44,11 +44,11 @@ namespace Aula
                 }
             }
             //Cria um Novo Diretório
-            string diretorio = @"c:\Temp";
+            string diretorio = @"c:\CADASTRO";
             Directory.CreateDirectory(diretorio);
 
             //salva em um arquivo de txt
-            File.WriteAllText(@"c:\Temp\CadastroUsuarios.txt", JsonConvert.SerializeObject(this));
+            File.WriteAllText(@"c:\CADASTRO\CadastroUsuarios.txt", JsonConvert.SerializeObject(this));
             Console.ReadKey(true);
         }
     }
