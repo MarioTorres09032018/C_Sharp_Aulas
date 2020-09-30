@@ -7,8 +7,6 @@ namespace Aula
     class Program
     {
         static void Main()
-
-
         {
             //-----------------------------------------------------------------PESSOA------------------------------------------------------------------------------------------------//
             Escrever("*Bem vindo ao sistema de cadastro BASE DE PESSOAL");
@@ -18,53 +16,30 @@ namespace Aula
             Escrever("1 - Base de Pessoal");
             Escrever("2 - Pessoa Juridica");
             Escrever("3 - Pessoa Fisica");
-
             Console.ReadLine();
 
-            string escolha = "1";
-            string digitado;
-            int tentativas = 0;
-            
-            
+            string escolha = "1 - Base de Pessoal";
 
-
-
-
-
-            do        //SE DIGITAR A OPÇÃO ERRADA O "do" IRÁ EXECUTAR O CONTEÚDO DO BLOCO SEGUINTE ATÉ QUE "digitado" SEJA CORRESPONDENTE A "escolha 1".
+            while (escolha != "1")
             {
-                Console.WriteLine("OPÇÃO DIGITADA INVÁLIDA AO TIPO DE PESSOA:");
-                digitado = Console.ReadLine();
-                tentativas++;
-
-            } while (escolha != digitado);
+                Console.WriteLine("OPÇÃO DIGITADA INVÁLIDA AO TIPO DE BASE DE PESSOAL");
+                escolha = Console.ReadLine();
+            }
             Console.Clear();
 
             if (escolha == "1")
-
             {
                 Escrever("Digite seu nome.....:");
                 string n = Console.ReadLine();
 
                 Escrever("Digite seu sobrenome.....:");
                 string sobrenome = Console.ReadLine();
-                //--------------------------------------------------------------------------------------------------------------------------------//        
-
-
 
                 Escrever("Digite sua Data Nascimento.....:");
                 DateTime dtnascimento = Convert.ToDateTime(Console.ReadLine());
 
-                //while (digitado != dtnascimento) ;
+                // while (digitado dtnascimento) ;
                 Console.Clear();
-
-                Console.WriteLine("DATA INVALIDA");
-                 
-
-
-
-
-                //----------------------------------------------------------------------------------------------------------------------------------//
 
                 Escrever("Digite a cor dos seus olhos.....:");
                 string olhos = Console.ReadLine();
@@ -82,8 +57,6 @@ namespace Aula
             else if (escolha == "3")
             {
                 Escrever("OPÇÃO NÃO CORRESPONDE A BASE DE PESSOAL");
-
-
             }
 
             {
@@ -94,21 +67,18 @@ namespace Aula
 
             Escrever(" Escolha uma opção");
             Escrever("");
-            Escrever("1 - Pessoa");
+            Escrever("1 - Base de Pessoal");
             Escrever("2 - Pessoa Juridica");
             Escrever("3 - Pessoa Fisica");
-
             Console.ReadLine();
 
-            string escolha2 = "2";
-            string digitado2;
-            int tentativas2 = 0;
-            do        //SE DIGITAR A OPÇÃO ERRADA O "do" IRÁ EXECUTAR O CONTEÚDO DO BLOCO SEGUINTE ATÉ QUE "digitado2" SEJA CORRESPONDENTE A "escolha 2".
+            string escolha2 = "2 - Pessoa Juridica";
+
+            while (escolha2 != "2")
             {
-                Console.WriteLine("OPÇÃO DIGITADA INVÁLIDA AO TIPO DE PESSOA:");
-                digitado2 = Console.ReadLine();
-                tentativas2++;
-            } while (escolha2 != digitado2);
+                Console.WriteLine("OPÇÃO DIGITADA INVÁLIDA AO TIPO DE PESSOA JURÍDICA");
+                escolha2 = Console.ReadLine();
+            }
             Console.Clear();
 
             if (escolha2 == "2")
@@ -119,16 +89,19 @@ namespace Aula
                 Escrever("Digite seu sobrenome.....:");
                 string sobrenome = Console.ReadLine();
 
-                Escrever("Digite seu Data Nascimento.....:");
+                Escrever("Digite seu CNPJ.....:");
+                string CNPJ = Console.ReadLine();
+
+                Escrever("Digite sua Data Nascimento.....:");
                 DateTime dtnascimento = Convert.ToDateTime(Console.ReadLine());
 
-                Escrever("Digite seu CNPJ.....:");
-                string cnpj = Console.ReadLine();
+                // while (digitado dtnascimento) ;
+                Console.Clear();
 
                 Escrever("Digite a cor dos seus olhos.....:");
                 string olhos = Console.ReadLine();
 
-                PessoaJuridica pj = new PessoaJuridica(n, sobrenome, dtnascimento, cnpj, olhos);
+                PessoaJuridica pj = new PessoaJuridica(n, sobrenome, CNPJ, dtnascimento, olhos);
 
                 pj.Gravar();
 
@@ -141,54 +114,54 @@ namespace Aula
             else if (escolha2 == "3")
             {
                 Escrever("OPÇÃO NÃO CORRESPONDE A PESSOA JURÍDICA");
-
             }
+
             {
-                Escrever("------------------------------------------------");
+                Escrever("--------------------------------------------------");
             }
             //---------------------------------------------------------------------PESSOA FISICA------------------------------------------------------------------------------------//
             Escrever("\n*Bem vindo ao sistema de cadastro de PESSOA FÍSICA");
 
             Escrever(" Escolha uma opção");
             Escrever("");
-            Escrever("1 - Pessoa");
+            Escrever("1 - Base de Pessoal");
             Escrever("2 - Pessoa Juridica");
             Escrever("3 - Pessoa Fisica");
-
             Console.ReadLine();
 
-            string escolha3 = "3";
-            string digitado3;
-            int tentativas3 = 0;
-            do        //SE DIGITAR A OPÇÃO ERRADA O "do" IRÁ EXECUTAR O CONTEÚDO DO BLOCO SEGUINTE ATÉ QUE "digitado3" SEJA CORRESPONDENTE A "escolha 3".
+            string escolha3 = "3 - Pessoa Fisica";
+
+            while (escolha3 != "3")
             {
-                Console.WriteLine("OPÇÃO DIGITADA INVÁLIDA AO TIPO DE PESSOA:");
-                digitado3 = Console.ReadLine();
-                tentativas3++;
-            } while (escolha3 != digitado3);
+                Console.WriteLine("OPÇÃO DIGITADA INVÁLIDA AO TIPO DE PESSOA FÍSICA");
+                escolha3 = Console.ReadLine();
+            }
             Console.Clear();
 
             if (escolha3 == "3")
             {
-                Escrever("Digite seu nome");
+                Escrever("Digite seu nome.....:");
                 string n = Console.ReadLine();
 
-                Escrever("Digite seu sobrenome");
+                Escrever("Digite seu sobrenome.....:");
                 string sobrenome = Console.ReadLine();
 
-                Escrever("Digite seu Data Nascimento");
-                DateTime dtnascimento = Convert.ToDateTime(Console.ReadLine());
-
-                Escrever("Digite seu CPF");
+                Escrever("Digite seu CPF.....:");
                 string cpf = Console.ReadLine();
 
-                Escrever("Digite seu RG");
+                Escrever("Digite seu RG.....:");
                 string rg = Console.ReadLine();
 
-                Escrever("Digite a cor dos seus olhos");
+                Escrever("Digite sua Data Nascimento.....:");
+                DateTime dtnascimento = Convert.ToDateTime(Console.ReadLine());
+
+                // while (digitado dtnascimento) ;
+                Console.Clear();
+
+                Escrever("Digite a cor dos seus olhos.....:");
                 string olhos = Console.ReadLine();
 
-                PessoaFisica pf = new PessoaFisica(n, sobrenome, dtnascimento, cpf, rg, olhos);
+                PessoaFisica pf = new PessoaFisica(n, sobrenome, cpf, rg, dtnascimento, olhos);
 
                 pf.Gravar();
 
@@ -201,19 +174,20 @@ namespace Aula
             else if (escolha3 == "2")
             {
                 Escrever("OPÇÃO NÃO CORRESPONDE A PESSOA FÍSICA");
-
             }
+
             {
-                Escrever("------------------------------------------------");
+                Escrever("--------------------------------------------------");
             }
 
-        }
-        
-        static void Escrever(string mensagemParaPrintarNaTela)
-        {
-            Console.WriteLine(mensagemParaPrintarNaTela);
 
+
+            static void Escrever(string mensagemParaPrintarNaTela)
+            {
+                Console.WriteLine(mensagemParaPrintarNaTela);
+
+            }
         }
+
     }
-
 }
