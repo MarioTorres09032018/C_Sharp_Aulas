@@ -15,7 +15,6 @@ namespace Aula
             DataNascimento = dataNascimento;
             CorDosOlhos = cordosolhos;
         }
-
         public string Nome { get; private set; }
         public string Sobrenome { get; private set; }
         public DateTime DataNascimento { get; private set; }
@@ -36,7 +35,7 @@ namespace Aula
 
                 if (Directory.Exists(pasta))
                 {
-                    Console.WriteLine("**Um Diretório de Cadastro de Usuários foi criado em C:CADASTRO. Aperte ENTER para continuar**");
+                    Console.WriteLine("**Um Diretório de Cadastro de Usuários foi criado em C: CADASTRO. Aperte ENTER para continuar**");
                 }
                 else 
                 {
@@ -48,7 +47,7 @@ namespace Aula
             Directory.CreateDirectory(diretorio);
 
             //salva em um arquivo de txt
-            File.WriteAllText(@"c:\CADASTRO\CadastroUsuarios.txt", JsonConvert.SerializeObject(this));
+            File.WriteAllText(@"c:\CADASTRO\CadastroUsuario.txt", JsonConvert.SerializeObject(this));
             Console.ReadKey(true);
         }
     }
