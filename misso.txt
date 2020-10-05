@@ -1,0 +1,26 @@
+*Classe pessoa
+
+*crir Classe cargo: Vendedor, Assistente Adm, Analista 
+
+*Propriedade 
+
+Metodo Calcular Salário para cada cargo
+
+Vendedor - Salário Base e Comissão
+Assistente Adm - Salário Base
+Analista - Salário e Horas Trblhds
+
+
+*Clss Empregado:Pessoa e Cargo
+Criar Case 6
+
+  
+
+
+assistente e analista Pj herdarão de pessoa
+
+sve o empregdo em rquivo diferente
+empregdo 
+pesso
+
+
