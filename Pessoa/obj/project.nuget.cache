@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Oro/hBCNDRjIU3TFN2CBTOuazTUpZUAk6P2lKr5398z44HC5V1QJfjVykUa9TU+8aVejBE7b+FMeEPP41zM91w==",
+  "dgSpecHash": "kl0GLgj8nvqt4akcN3eDBtz/bYQE/0Vo9VeHxVIT6dzdOJ/2JW5hSnBu6YlFXolM7QPrmDte684AeS3pn67MfA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\Projects_Paralelos\\C_Sharp_Aulas\\Pessoa\\Cadastro.csproj",
+  "projectFilePath": "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\git\\C_Sharp_Aulas\\Pessoa\\Cadastro.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Portaria1 Unlimited\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],

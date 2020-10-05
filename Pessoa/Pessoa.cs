@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.IO;
+using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 using System.Text.Json.Serialization;
 
@@ -8,6 +9,9 @@ namespace Aula
 {
     public class Pessoa
     {
+        const string PATHFILE = @"c:\CADASTRO\CadastroUsuario.txt";
+        const string PASTA = @"c:\CADASTRO";
+
         public Pessoa(string nome, string sobrenome, DateTime dataNascimento, string cordosolhos)
         {
             Nome = nome;
@@ -29,28 +33,23 @@ namespace Aula
         }
         public void Gravar()
         {
-            //Verifica se o diretório existe
-            {
-                string pasta = @"c:\CADASTRO";
 
-                if (Directory.Exists(pasta))
-                {
-                    Console.WriteLine("**Um Diretório de Cadastro de Usuários foi criado em C: CADASTRO. Aperte ENTER para continuar**");
-                }
-                else 
-                {
-                    Console.WriteLine("**O Diretório Não Existe. Para cria-lo agora aperte ENTER**");
-                }
+            string dadoscarregados = CarregarDadosArquivo();
+            
+            if (!Directory.Exists(PASTA))
+            {
+                Directory.CreateDirectory(PASTA);
             }
-            //Cria um Novo Diretório
-            string diretorio = @"c:\CADASTRO";
-            Directory.CreateDirectory(diretorio);
 
             //salva em um arquivo de txt
-            File.WriteAllText(@"c:\CADASTRO\CadastroUsuario.txt", JsonConvert.SerializeObject(this));
-            Console.ReadKey(true);
+            File.WriteAllText(PATHFILE, JsonConvert.SerializeObject(this) + "\n" +  dadoscarregados);
+            
+        }
+
+        public static string CarregarDadosArquivo()
+        {
+            return File.ReadAllText(PATHFILE);
         }
     }
 }
 
- 

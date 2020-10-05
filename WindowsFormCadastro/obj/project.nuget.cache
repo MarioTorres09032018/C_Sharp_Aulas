@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BS9g/J6ViAPZRm2X0Z9I5Fs7tuNlZXUf94X8Z3m648ea1BmIWrUexzNd/Q7ypX83jyHHH8XW6ih8s9lrrufEDQ==",
+  "dgSpecHash": "a9HUI48jqGfZFS9OTPyVKhOk75DWBJ84/605YD6pNLyVgFJ/WLca6n8MdRgk2rPw1L84ztzeLstafMP9jRk/3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\Projects_Paralelos\\C_Sharp_Aulas\\WindowsFormCadastro\\WindowsFormCadastro.csproj",
+  "projectFilePath": "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\git\\C_Sharp_Aulas\\WindowsFormCadastro\\WindowsFormCadastro.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Portaria1 Unlimited\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
