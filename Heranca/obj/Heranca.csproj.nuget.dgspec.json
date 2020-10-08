@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\git\\C_Sharp_Aulas\\Heranca\\Heranca.csproj": {}
+    "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\Projects_Paralelos\\C_Sharp_Aulas\\Heranca\\Heranca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\git\\C_Sharp_Aulas\\Heranca\\Heranca.csproj": {
+    "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\Projects_Paralelos\\C_Sharp_Aulas\\Heranca\\Heranca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\git\\C_Sharp_Aulas\\Heranca\\Heranca.csproj",
+        "projectUniqueName": "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\Projects_Paralelos\\C_Sharp_Aulas\\Heranca\\Heranca.csproj",
         "projectName": "Heranca",
-        "projectPath": "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\git\\C_Sharp_Aulas\\Heranca\\Heranca.csproj",
+        "projectPath": "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\Projects_Paralelos\\C_Sharp_Aulas\\Heranca\\Heranca.csproj",
         "packagesPath": "C:\\Users\\Portaria1 Unlimited\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\git\\C_Sharp_Aulas\\Heranca\\obj\\",
+        "outputPath": "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\Projects_Paralelos\\C_Sharp_Aulas\\Heranca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Portaria1 Unlimited\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\git\\C_Sharp_Aulas\\Pessoa\\Cadastro.csproj": {
-                "projectPath": "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\git\\C_Sharp_Aulas\\Pessoa\\Cadastro.csproj"
+              "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\Projects_Paralelos\\C_Sharp_Aulas\\Pessoa\\Cadastro.csproj": {
+                "projectPath": "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\Projects_Paralelos\\C_Sharp_Aulas\\Pessoa\\Cadastro.csproj"
               }
             }
           }
@@ -60,14 +60,14 @@
         }
       }
     },
-    "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\git\\C_Sharp_Aulas\\Pessoa\\Cadastro.csproj": {
+    "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\Projects_Paralelos\\C_Sharp_Aulas\\Pessoa\\Cadastro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\git\\C_Sharp_Aulas\\Pessoa\\Cadastro.csproj",
+        "projectUniqueName": "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\Projects_Paralelos\\C_Sharp_Aulas\\Pessoa\\Cadastro.csproj",
         "projectName": "Cadastro",
-        "projectPath": "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\git\\C_Sharp_Aulas\\Pessoa\\Cadastro.csproj",
+        "projectPath": "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\Projects_Paralelos\\C_Sharp_Aulas\\Pessoa\\Cadastro.csproj",
         "packagesPath": "C:\\Users\\Portaria1 Unlimited\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\git\\C_Sharp_Aulas\\Pessoa\\obj\\",
+        "outputPath": "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\Projects_Paralelos\\C_Sharp_Aulas\\Pessoa\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Portaria1 Unlimited\\AppData\\Roaming\\NuGet\\NuGet.Config",

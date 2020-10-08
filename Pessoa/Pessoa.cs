@@ -40,6 +40,10 @@ namespace Aula
             {
                 Directory.CreateDirectory(PASTA);
             }
+            if(!File.Exists(PATHFILE))
+            {
+                File.Create(PATHFILE);
+            }
 
             //salva em um arquivo de txt
             File.WriteAllText(PATHFILE, JsonConvert.SerializeObject(this) + "\n" +  dadoscarregados);

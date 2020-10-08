@@ -60,7 +60,7 @@ namespace Aula
             int dia = 0;
             int mes = 0;
             int ano = 0;
-            string olhos = string.Empty;
+            string cordosolhos = string.Empty;
             string rg = string.Empty;
             string cpf = string.Empty;
             string cnpj = string.Empty;
@@ -69,26 +69,26 @@ namespace Aula
             switch (escolha)
             {
                 case "1":
-                    PerguntasBasicas(out n, out sobrenome, out dtnascimento, out dia, out mes, out ano, out olhos);
+                    PerguntasBasicas(out n, out sobrenome, out dtnascimento, out dia, out mes, out ano, out cordosolhos);
 
-                    Pessoa pes = new Pessoa(n, sobrenome, dtnascimento, olhos);
+                    Pessoa pes = new Pessoa(n, sobrenome, dtnascimento, cordosolhos);
 
                     pes.Gravar();
 
                     break;
 
                 case "2":
-                    PerguntasBasicas(out n, out sobrenome, out dtnascimento, out dia, out mes, out ano, out olhos);
+                    PerguntasBasicas(out n, out sobrenome, out dtnascimento, out dia, out mes, out ano, out cordosolhos);
 
                     Escrever("Digite seu CNPJ.....:");
                     cnpj = Console.ReadLine();
 
-                    PessoaJuridica pj = new PessoaJuridica(n, sobrenome, cnpj, dtnascimento, olhos);
+                    PessoaJuridica pj = new PessoaJuridica(n, sobrenome, cnpj, dtnascimento, cordosolhos);
 
                     pj.Gravar();
                     break;
                 case "3":
-                    PerguntasBasicas(out n, out sobrenome, out dtnascimento, out dia, out mes, out ano, out olhos);
+                    PerguntasBasicas(out n, out sobrenome, out dtnascimento, out dia, out mes, out ano, out cordosolhos);
 
                     Escrever("Digite seu CPF.....:");
                     cpf = Console.ReadLine();
@@ -96,7 +96,7 @@ namespace Aula
                     Escrever("Digite seu RG.....:");
                     rg = Console.ReadLine();
 
-                    PessoaFisica pf = new PessoaFisica(n, sobrenome, cpf, rg, dtnascimento, olhos);
+                    PessoaFisica pf = new PessoaFisica(n, sobrenome, cpf, rg, dtnascimento, cordosolhos);
 
                     pf.Gravar();
 
@@ -140,7 +140,7 @@ namespace Aula
             }
         }
 
-        private static void PerguntasBasicas(out string n, out string sobrenome, out DateTime dtnascimento, out int dia, out int mes, out int ano, out string olhos)
+        private static void PerguntasBasicas(out string n, out string sobrenome, out DateTime dtnascimento, out int dia, out int mes, out int ano, out string cordosolhos)
         {
             Escrever("Digite seu nome.....:");
             n = Console.ReadLine();
@@ -160,7 +160,7 @@ namespace Aula
             dtnascimento = new DateTime(ano, mes, dia);
 
             Escrever("Digite a cor dos seus olhos.....:");
-            olhos = Console.ReadLine();
+            cordosolhos = Console.ReadLine();
         }
 
         private static string CapturarEscolhaDoUsuario(ref string escolha)

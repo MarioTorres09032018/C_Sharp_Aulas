@@ -13,7 +13,7 @@ namespace Aula
             CPF = cpf;
             RG = rg;
         }
-        public string CPF { get; set; }
+        public string CPF { get; set; } 
 
         public string RG { get; set; }
 
