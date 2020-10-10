@@ -3,6 +3,7 @@ using System;
 using System.IO;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
+using System.Text;
 using System.Text.Json.Serialization;
 
 namespace Aula
@@ -41,14 +42,20 @@ namespace Aula
                 Directory.CreateDirectory(PASTA);
             }
 
+            Console.WriteLine(File.Exists(PATHFILE));
+            File.WriteAllText(PATHFILE, "CadastroUsuario");
+            Console.WriteLine(File.Exists(PATHFILE));
+            Console.ReadKey(true);
+
             //salva em um arquivo de txt
             File.WriteAllText(PATHFILE, JsonConvert.SerializeObject(this) + "\n" +  dadoscarregados);
             
         }
-
+        
         public static string CarregarDadosArquivo()
+        
         {
-            return File.ReadAllText(PATHFILE);
+            return File.ReadAllText(PATHFILE); //return dando problema. Não cria mais a pasta nem salva arquivo, só se criar manualmente.
         }
     }
 }
