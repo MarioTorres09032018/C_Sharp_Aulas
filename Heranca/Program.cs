@@ -78,9 +78,14 @@ namespace Aula
             {
                 case "1":
                     PerguntasBasicas(out n, out sobrenome, out dtnascimento, out dia, out mes, out ano, out cordosolhos);
+<<<<<<< HEAD
                    
                     Escrever("Cargo Exercido.....:");
                     profissao = Console.ReadLine();
+=======
+
+                    Pessoa pes = new Pessoa(n, sobrenome, dtnascimento, cordosolhos);
+>>>>>>> 80c9b9632691aac474c766a33fcb3af843b1b3db
 
                     CargoVendedor vnd = new CargoVendedor(profissao, n, sobrenome, dtnascimento, cordosolhos, QtdVendas, SalMes, comissao, QtdDias);
                                                                                                                          //QtdDias dando problema
@@ -159,8 +164,12 @@ namespace Aula
             }
         }
 
+<<<<<<< HEAD
         private static void PerguntasBasicas(out string n, out string sobrenome, out DateTime dtnascimento, out int dia, out int mes, out int ano, 
             out string cordosolhos, out double QtdDias)
+=======
+        private static void PerguntasBasicas(out string n, out string sobrenome, out DateTime dtnascimento, out int dia, out int mes, out int ano, out string cordosolhos)
+>>>>>>> 80c9b9632691aac474c766a33fcb3af843b1b3db
         {
             Escrever("Digite seu nome.....:");
             n = Console.ReadLine();
@@ -181,6 +190,7 @@ namespace Aula
 
             Escrever("Digite a cor dos seus olhos.....:");
             cordosolhos = Console.ReadLine();
+<<<<<<< HEAD
 
            
             Escrever("Informe o numero de dias trabalhados");
@@ -189,6 +199,8 @@ namespace Aula
 
 
 
+=======
+>>>>>>> 80c9b9632691aac474c766a33fcb3af843b1b3db
         }
 
         private static string CapturarEscolhaDoUsuario(ref string escolha)
