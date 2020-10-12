@@ -60,37 +60,37 @@ namespace Aula
             int dia = 0;
             int mes = 0;
             int ano = 0;
+            int QtdDias = 0;
+            int QtdVendas = 0;
             string cordosolhos = string.Empty;
             string rg = string.Empty;
             string cpf = string.Empty;
             string cnpj = string.Empty;
             string profissao = string.Empty;
+            string Cargo = string.Empty;
             bool pesquisa = false;
-            double QtdVendas = 0;
             double SalMes = 0;
             double comissao = 0;
-            double QtdDias = 0;
             
-            string Vendedor;
 
             
             switch (escolha)
             {
                 case "1":
-                    PerguntasBasicas(out n, out sobrenome, out dtnascimento, out dia, out mes, out ano, out cordosolhos);
+                    PerguntasBasicas(out n, out sobrenome, out dtnascimento, out dia, out mes, out ano, out cordosolhos, out QtdVendas, out SalMes, 
+                        out comissao, out QtdDias, out Cargo);
                    
                     Escrever("Cargo Exercido.....:");
-                    profissao = Console.ReadLine();
+                    Cargo = Console.ReadLine();
 
-                    CargoVendedor vnd = new CargoVendedor(profissao, n, sobrenome, dtnascimento, cordosolhos, QtdVendas, SalMes, comissao, QtdDias);
-                                                                                                                         //QtdDias dando problema
+                    CargoVendedor Cvnd = new CargoVendedor(n, sobrenome, profissao, dtnascimento, cordosolhos);
                     
-
-                    vnd.Gravar();
+                    Cvnd.Gravar();
                     break;
 
                 case "2":
-                    PerguntasBasicas(out n, out sobrenome, out dtnascimento, out dia, out mes, out ano, out cordosolhos);
+                    PerguntasBasicas(out n, out sobrenome, out dtnascimento, out dia, out mes, out ano, out cordosolhos, out QtdVendas, out SalMes, 
+                        out comissao, out QtdDias, out Cargo);
 
                     Escrever("Digite seu CNPJ.....:");
                     cnpj = Console.ReadLine();
@@ -100,7 +100,8 @@ namespace Aula
                     pj.Gravar();
                     break;
                 case "3":
-                    PerguntasBasicas(out n, out sobrenome, out dtnascimento, out dia, out mes, out ano, out cordosolhos);
+                    PerguntasBasicas(out n, out sobrenome, out dtnascimento, out dia, out mes, out ano, out cordosolhos, out QtdVendas, out SalMes, 
+                        out comissao, out QtdDias, out Cargo);
 
                     Escrever("Digite seu CPF.....:");
                     cpf = Console.ReadLine();
@@ -138,16 +139,12 @@ namespace Aula
 
                     }
 
-
                     break;
                 default:
                     Console.WriteLine("Função não implementada");
                     break;
-
               
             }
-            
-
 
             if (pesquisa)
             {
@@ -159,8 +156,8 @@ namespace Aula
             }
         }
 
-        private static void PerguntasBasicas(out string n, out string sobrenome, out DateTime dtnascimento, out int dia, out int mes, out int ano, 
-            out string cordosolhos, out double QtdDias)
+        private static void PerguntasBasicas(out string n, out string sobrenome, out DateTime dtnascimento, out int dia, out int mes, out int ano,
+            out string cordosolhos, out int QtdVendas, out double SalMes, out double comissao, out int QtdDias, out string Cargo)
         {
             Escrever("Digite seu nome.....:");
             n = Console.ReadLine();
@@ -182,11 +179,20 @@ namespace Aula
             Escrever("Digite a cor dos seus olhos.....:");
             cordosolhos = Console.ReadLine();
 
-           
             Escrever("Informe o numero de dias trabalhados");
-            QtdDias = int.Parse(Console.ReadLine());
+            QtdVendas = Convert.ToInt32(Console.ReadLine());
+            
+            Escrever("Informe o numero de dias trabalhados");
+            SalMes = Convert.ToInt32(Console.ReadLine());
 
+            Escrever("Informe o numero de dias trabalhados");
+            comissao = Convert.ToInt32(Console.ReadLine());
 
+            Escrever("Informe o numero de dias trabalhados");
+            QtdDias = Convert.ToInt32(Console.ReadLine());
+
+            Escrever("Informe o numero de dias trabalhados");
+            Cargo = Console.ReadLine();
 
 
         }

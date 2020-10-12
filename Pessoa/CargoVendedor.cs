@@ -14,13 +14,14 @@ namespace Aula
 
 
         {
-            salariomes = SalMes;
-            BonusMes= comissao;
+            Cargo = profissao;
             VensdasMes = QtdVendas;
+            Salariomes = SalMes;
+            BonusMes= comissao;
             DiasTrabalhados = QtdDias;
         }
-       
-        public double salariomes { get; set; }
+        public string Cargo { get; set; }
+        public double Salariomes { get; set; }
         public double BonusMes { get; set; }
         public double VensdasMes { get; set; }
         public double DiasTrabalhados { get; set; }
