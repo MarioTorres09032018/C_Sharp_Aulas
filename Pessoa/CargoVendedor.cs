@@ -41,8 +41,8 @@ namespace Aula
         public string Cargo { get; set; }
         public double Salariomes { get; set; }
         public double BonusMes { get; set; }
-        public double VensdasMes { get; set; }
-        public double DiasTrabalhados { get; set; }
+        public int VensdasMes { get; set; }
+        public int DiasTrabalhados { get; set; }
     } 
    
 }
@@ -54,7 +54,7 @@ namespace SalarioBase_Comissao
         static void Main()
         {
             int QtdVendas = 0;
-            double mes;
+            int mes;
             double salario=1.200;
             double comissao = 0.1;
             
