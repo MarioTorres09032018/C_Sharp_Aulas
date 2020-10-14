@@ -78,28 +78,9 @@ namespace Aula
             switch (escolha)
             {
                 case "1":
-<<<<<<< HEAD
+
                     PerguntasBasicas(out n, out sobrenome, out dtnascimento, out dia, out mes, out ano, out cordosolhos, out QtdVendas, out SalMes,
                         out comissao, out QtdDias, out Cargo);
-=======
-<<<<<<< HEAD
-                    PerguntasBasicas(out n, out sobrenome, out dtnascimento, out dia, out mes, out ano, out cordosolhos, out QtdVendas, out SalMes, 
-                        out comissao, out QtdDias, out Cargo);
-                   
-                    Escrever("Cargo Exercido.....:");
-                    Cargo = Console.ReadLine();
-=======
-                    PerguntasBasicas(out n, out sobrenome, out dtnascimento, out dia, out mes, out ano, out cordosolhos);
-<<<<<<< HEAD
-                   
-                    Escrever("Cargo Exercido.....:");
-                    profissao = Console.ReadLine();
-=======
-
-                    Pessoa pes = new Pessoa(n, sobrenome, dtnascimento, cordosolhos);
->>>>>>> 80c9b9632691aac474c766a33fcb3af843b1b3db
->>>>>>> e94b22da60c6fdbcfe70ccb650c2ea7b238ab848
->>>>>>> 5a91fb760e84b4d591af06cebd4f4d9141d0c5be
 
                     Escrever("Digite sua Profissão.....:");
                     profissao = Console.ReadLine();
@@ -142,7 +123,6 @@ namespace Aula
                     string nome = Console.ReadLine();
                     nome = nome.ToUpper();
 
-
                     string pessoaEncontrada = Pessoa.CarregarDadosArquivo();
                     string[] pessoas = pessoaEncontrada.Split("\n");
 
@@ -177,7 +157,6 @@ namespace Aula
             }
         }
 
-<<<<<<< HEAD
         private static void PerguntasBasicas(out string n, out string sobrenome, out DateTime dtnascimento, out int dia, out int mes, out int ano, out string cordosolhos)
         {
             throw new NotImplementedException();
@@ -186,19 +165,10 @@ namespace Aula
         private static void PerguntasBasicas(out string n, out string sobrenome, out DateTime dtnascimento, out int dia, out int mes, out int ano,
             out string cordosolhos, out int QtdVendas, out double SalMes, out double comissao, out int QtdDias, out string Cargo)
 
-=======
-<<<<<<< HEAD
+
         private static void PerguntasBasicas(out string n, out string sobrenome, out DateTime dtnascimento, out int dia, out int mes, out int ano,
             out string cordosolhos, out int QtdVendas, out double SalMes, out double comissao, out int QtdDias, out string Cargo)
-=======
-<<<<<<< HEAD
-        private static void PerguntasBasicas(out string n, out string sobrenome, out DateTime dtnascimento, out int dia, out int mes, out int ano, 
-            out string cordosolhos, out double QtdDias)
-=======
-        private static void PerguntasBasicas(out string n, out string sobrenome, out DateTime dtnascimento, out int dia, out int mes, out int ano, out string cordosolhos)
->>>>>>> 80c9b9632691aac474c766a33fcb3af843b1b3db
->>>>>>> e94b22da60c6fdbcfe70ccb650c2ea7b238ab848
->>>>>>> 5a91fb760e84b4d591af06cebd4f4d9141d0c5be
+            
         {
             Escrever("Digite seu nome.....:");
             n = Console.ReadLine();
@@ -234,7 +204,6 @@ namespace Aula
 
             Escrever("Informe o numero de dias trabalhados");
             Cargo = Console.ReadLine();
-
 
         }
 
