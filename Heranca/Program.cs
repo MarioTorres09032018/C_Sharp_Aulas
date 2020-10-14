@@ -43,7 +43,7 @@ namespace Aula
             //MenuInicial
             Escrever("\n*Bem vindo ao sistema de cadastro de PESSOAL");
             Escrever("");
-            Escrever("1-Cargos Disponíveis: Vendedor, Assistente ADM, Analista TI");
+            Escrever("1-Digite seu Cargo: Vendedor, Assistente ADM, Analista TI");
             Escrever("2-Pessoa Juridica");
             Escrever("3-Pessoa Fisica");
             Escrever("4-Sair");
@@ -72,8 +72,6 @@ namespace Aula
             bool pesquisa = false;
             double SalMes = 0;
             double comissao = 0;
-            
-
             
             switch (escolha)
             {
