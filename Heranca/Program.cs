@@ -57,19 +57,19 @@ namespace Aula
             // string.Empty = ""
             string n = string.Empty;
             string sobrenome = string.Empty;
-            DateTime dtnascimento = DateTime.MinValue;
-            int dia = 0;
-            int mes = 0;
-            int ano = 0;
-            int QtdDias = 0;
-            int QtdVendas = 0;
             string cordosolhos = string.Empty;
             string rg = string.Empty;
             string cpf = string.Empty;
             string cnpj = string.Empty;
             string profissao = string.Empty;
             string Cargo = string.Empty;
+            DateTime dtnascimento = DateTime.MinValue;
             bool pesquisa = false;
+            int dia = 0;
+            int mes = 0;
+            int ano = 0;
+            int QtdDias = 0;
+            int QtdVendas = 0;
             double SalMes = 0;
             double comissao = 0;
             
