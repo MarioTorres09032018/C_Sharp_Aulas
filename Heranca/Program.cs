@@ -2,6 +2,7 @@
 using System;
 using System.Data;
 using System.Data.SqlTypes;
+using System.Dynamic;
 using System.Globalization;
 
 namespace Aula
@@ -77,14 +78,14 @@ namespace Aula
             switch (escolha)
             {
                 case "1":
-                    PerguntasBasicas(out n, out sobrenome, out dtnascimento, out dia, out mes, out ano, out cordosolhos, out QtdVendas, out SalMes, 
+                    PerguntasBasicas(out n, out sobrenome, out dtnascimento, out dia, out mes, out ano, out cordosolhos, out QtdVendas, out SalMes,
                         out comissao, out QtdDias, out Cargo);
-                   
-                    Escrever("Cargo Exercido.....:");
-                    Cargo = Console.ReadLine();
 
-                    CargoVendedor Cvnd = new CargoVendedor(n, sobrenome, profissao, dtnascimento, cordosolhos);
+                    Escrever("Digite sua Profissão.....:");
+                    profissao = Console.ReadLine();
                     
+                    CargoVendedor Cvnd = new CargoVendedor(n, sobrenome,profissao, dtnascimento, cordosolhos);
+
                     Cvnd.Gravar();
                     break;
 
@@ -156,8 +157,14 @@ namespace Aula
             }
         }
 
+        private static void PerguntasBasicas(out string n, out string sobrenome, out DateTime dtnascimento, out int dia, out int mes, out int ano, out string cordosolhos)
+        {
+            throw new NotImplementedException();
+        }
+
         private static void PerguntasBasicas(out string n, out string sobrenome, out DateTime dtnascimento, out int dia, out int mes, out int ano,
             out string cordosolhos, out int QtdVendas, out double SalMes, out double comissao, out int QtdDias, out string Cargo)
+
         {
             Escrever("Digite seu nome.....:");
             n = Console.ReadLine();
