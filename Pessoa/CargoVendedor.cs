@@ -14,35 +14,33 @@ namespace Aula
         public DateTime dtnascimento {get;set;}
         public string cordosolhos { get; set; }
 
+        public CargoVendedor(string nome, string sobrenome, DateTime dataNascimento, string cordosolhos, string profissao, double QtdVendas, double SalMes,
+         double comissao, double QtdDias)
 
+                                 : base(nome, sobrenome, dataNascimento, cordosolhos)
 
-        public CargoVendedor(string n, string sobrenome, DateTime dtnascimento, string cordosolhos)
+        {
+            Cargo = profissao;
+            VendasMes = QtdVendas;
+            Salariomes = SalMes;
+            BonusMes= comissao;
+            DiasTrabalhados = QtdDias;
+        }
+
+        public CargoVendedor(string n, string sobrenome, string profissao, DateTime dtnascimento, string cordosolhos)
         {
             this.n = n;
             this.sobrenome = sobrenome;
             this.profissao = profissao;
             this.dtnascimento = dtnascimento;
             this.cordosolhos = cordosolhos;
-
         }
 
-        public CargoVendedor(string profissao, string nome, string sobrenome, DateTime dataNascimento, string cordosolhos,int QtdVendas, double SalMes,
-         double comissao, int QtdDias)
-
-                                 : base(nome, sobrenome, dataNascimento, cordosolhos)
-
-        {
-            Cargo = profissao;
-            VensdasMes = QtdVendas;
-            Salariomes = SalMes;
-            BonusMes= comissao;
-            DiasTrabalhados = QtdDias;
-        }
         public string Cargo { get; set; }
         public double Salariomes { get; set; }
         public double BonusMes { get; set; }
-        public int VensdasMes { get; set; }
-        public int DiasTrabalhados { get; set; }
+        public double VendasMes { get; set; }
+        public double DiasTrabalhados { get; set; }
     } 
    
 }
@@ -53,8 +51,8 @@ namespace SalarioBase_Comissao
     {
         static void Main()
         {
-            int QtdVendas = 0;
-            int mes;
+            double QtdVendas = 0;
+            double mes;
             double salario=1.200;
             double comissao = 0.1;
             
