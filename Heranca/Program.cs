@@ -68,8 +68,8 @@ namespace Aula
             int dia = 0;
             int mes = 0;
             int ano = 0;
-            int QtdDias = 0;
-            int QtdVendas = 0;
+            double QtdDias = 0;
+            double QtdVendas=0;
             double SalMes = 0;
             double comissao = 0;
             
@@ -161,11 +161,7 @@ namespace Aula
         }
 
         private static void PerguntasBasicas(out string n, out string sobrenome, out DateTime dtnascimento, out int dia, out int mes, out int ano,
-            out string cordosolhos, out int QtdVendas, out double SalMes, out double comissao, out int QtdDias, out string Cargo)
-
-
-        private static void PerguntasBasicas(out string n, out string sobrenome, out DateTime dtnascimento, out int dia, out int mes, out int ano,
-            out string cordosolhos, out int QtdVendas, out double SalMes, out double comissao, out int QtdDias, out string Cargo)
+            out string cordosolhos, out double QtdVendas, out double SalMes, out double comissao, out double QtdDias, out string Cargo)
             
         {
             Escrever("Digite seu nome.....:");
