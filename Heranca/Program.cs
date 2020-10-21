@@ -2,6 +2,10 @@
 using System;
 using System.Data;
 using System.Data.SqlTypes;
+<<<<<<< HEAD
+=======
+using System.Dynamic;
+>>>>>>> e2983ba3e6fdcb6b8c2eb092ad2a8974026f9ca5
 using System.Globalization;
 
 namespace Aula
@@ -42,7 +46,11 @@ namespace Aula
             //MenuInicial
             Escrever("\n*Bem vindo ao sistema de cadastro de PESSOAL");
             Escrever("");
+<<<<<<< HEAD
             Escrever("1-Base de Pessoal");
+=======
+            Escrever("1-Digite seu Cargo: Vendedor, Assistente ADM, Analista TI");
+>>>>>>> e2983ba3e6fdcb6b8c2eb092ad2a8974026f9ca5
             Escrever("2-Pessoa Juridica");
             Escrever("3-Pessoa Fisica");
             Escrever("4-Sair");
@@ -56,6 +64,7 @@ namespace Aula
             // string.Empty = ""
             string n = string.Empty;
             string sobrenome = string.Empty;
+<<<<<<< HEAD
             DateTime dtnascimento = DateTime.MinValue;
             int dia = 0;
             int mes = 0;
@@ -79,16 +88,61 @@ namespace Aula
 
                 case "2":
                     PerguntasBasicas(out n, out sobrenome, out dtnascimento, out dia, out mes, out ano, out olhos);
+=======
+            string cordosolhos = string.Empty;
+            string rg = string.Empty;
+            string cpf = string.Empty;
+            string cnpj = string.Empty;
+            string profissao = string.Empty;
+            string Cargo = string.Empty;
+            DateTime dtnascimento = DateTime.MinValue;
+            bool pesquisa = false;
+            int dia = 0;
+            int mes = 0;
+            int ano = 0;
+            double QtdDias = 0;
+            double QtdVendas=0;
+            double SalMes = 0;
+            double comissao = 0;
+            
+            switch (escolha)
+            {
+                case "1":
+
+                    PerguntasBasicas(out n, out sobrenome, out dtnascimento, out dia, out mes, out ano, out cordosolhos, out QtdVendas, out SalMes,
+                        out comissao, out QtdDias, out Cargo);
+
+                    Escrever("Digite sua Profissão.....:");
+                    profissao = Console.ReadLine();
+                    
+                    CargoVendedor Cvnd = new CargoVendedor(n, sobrenome,profissao, dtnascimento, cordosolhos);
+
+                    Cvnd.Gravar();
+                    break;
+
+                case "2":
+                    PerguntasBasicas(out n, out sobrenome, out dtnascimento, out dia, out mes, out ano, out cordosolhos, out QtdVendas, out SalMes, 
+                        out comissao, out QtdDias, out Cargo);
+>>>>>>> e2983ba3e6fdcb6b8c2eb092ad2a8974026f9ca5
 
                     Escrever("Digite seu CNPJ.....:");
                     cnpj = Console.ReadLine();
 
+<<<<<<< HEAD
                     PessoaJuridica pj = new PessoaJuridica(n, sobrenome, cnpj, dtnascimento, olhos);
+=======
+                    PessoaJuridica pj = new PessoaJuridica(n, sobrenome, cnpj, dtnascimento, cordosolhos);
+>>>>>>> e2983ba3e6fdcb6b8c2eb092ad2a8974026f9ca5
 
                     pj.Gravar();
                     break;
                 case "3":
+<<<<<<< HEAD
                     PerguntasBasicas(out n, out sobrenome, out dtnascimento, out dia, out mes, out ano, out olhos);
+=======
+                    PerguntasBasicas(out n, out sobrenome, out dtnascimento, out dia, out mes, out ano, out cordosolhos, out QtdVendas, out SalMes, 
+                        out comissao, out QtdDias, out Cargo);
+>>>>>>> e2983ba3e6fdcb6b8c2eb092ad2a8974026f9ca5
 
                     Escrever("Digite seu CPF.....:");
                     cpf = Console.ReadLine();
@@ -96,7 +150,11 @@ namespace Aula
                     Escrever("Digite seu RG.....:");
                     rg = Console.ReadLine();
 
+<<<<<<< HEAD
                     PessoaFisica pf = new PessoaFisica(n, sobrenome, cpf, rg, dtnascimento, olhos);
+=======
+                    PessoaFisica pf = new PessoaFisica(n, sobrenome, cpf, rg, dtnascimento, cordosolhos);
+>>>>>>> e2983ba3e6fdcb6b8c2eb092ad2a8974026f9ca5
 
                     pf.Gravar();
 
@@ -111,6 +169,10 @@ namespace Aula
                     string pessoaEncontrada = Pessoa.CarregarDadosArquivo();
                     string[] pessoas = pessoaEncontrada.Split("\n");
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> e2983ba3e6fdcb6b8c2eb092ad2a8974026f9ca5
                     for (int i = 0; i < pessoas.Length; i++)
                     {
                         string registropessoa = pessoas[i];
@@ -121,13 +183,22 @@ namespace Aula
                             Console.WriteLine("Encontrado o registro:");
                             Console.WriteLine(registropessoa);
                         }
+<<<<<<< HEAD
                     }
 
+=======
+
+                    }
+>>>>>>> e2983ba3e6fdcb6b8c2eb092ad2a8974026f9ca5
 
                     break;
                 default:
                     Console.WriteLine("Função não implementada");
                     break;
+<<<<<<< HEAD
+=======
+              
+>>>>>>> e2983ba3e6fdcb6b8c2eb092ad2a8974026f9ca5
             }
 
             if (pesquisa)
@@ -140,7 +211,18 @@ namespace Aula
             }
         }
 
+<<<<<<< HEAD
         private static void PerguntasBasicas(out string n, out string sobrenome, out DateTime dtnascimento, out int dia, out int mes, out int ano, out string olhos)
+=======
+        private static void PerguntasBasicas(out string n, out string sobrenome, out DateTime dtnascimento, out int dia, out int mes, out int ano, out string cordosolhos)
+        {
+            throw new NotImplementedException();
+        }
+
+        private static void PerguntasBasicas(out string n, out string sobrenome, out DateTime dtnascimento, out int dia, out int mes, out int ano,
+            out string cordosolhos, out double QtdVendas, out double SalMes, out double comissao, out double QtdDias, out string Cargo)
+            
+>>>>>>> e2983ba3e6fdcb6b8c2eb092ad2a8974026f9ca5
         {
             Escrever("Digite seu nome.....:");
             n = Console.ReadLine();
@@ -160,7 +242,27 @@ namespace Aula
             dtnascimento = new DateTime(ano, mes, dia);
 
             Escrever("Digite a cor dos seus olhos.....:");
+<<<<<<< HEAD
             olhos = Console.ReadLine();
+=======
+            cordosolhos = Console.ReadLine();
+
+            Escrever("Informe o numero de dias trabalhados");
+            QtdVendas = Convert.ToInt32(Console.ReadLine());
+            
+            Escrever("Informe o numero de dias trabalhados");
+            SalMes = Convert.ToInt32(Console.ReadLine());
+
+            Escrever("Informe o numero de dias trabalhados");
+            comissao = Convert.ToInt32(Console.ReadLine());
+
+            Escrever("Informe o numero de dias trabalhados");
+            QtdDias = Convert.ToInt32(Console.ReadLine());
+
+            Escrever("Informe o numero de dias trabalhados");
+            Cargo = Console.ReadLine();
+
+>>>>>>> e2983ba3e6fdcb6b8c2eb092ad2a8974026f9ca5
         }
 
         private static string CapturarEscolhaDoUsuario(ref string escolha)

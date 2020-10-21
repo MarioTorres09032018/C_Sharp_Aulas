@@ -70,11 +70,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\MARIO TORRES\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Portaria1 Unlimited\\.nuget\\packages\\": {}
+>>>>>>> e2983ba3e6fdcb6b8c2eb092ad2a8974026f9ca5
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\MARIO TORRES\\Documents\\Git_Compart\\C_Sharp_Aulas\\Heranca-master\\Heranca\\Heranca.csproj",
       "projectName": "Heranca",
       "projectPath": "C:\\Users\\MARIO TORRES\\Documents\\Git_Compart\\C_Sharp_Aulas\\Heranca-master\\Heranca\\Heranca.csproj",
@@ -83,6 +88,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MARIO TORRES\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\Projects_Paralelos\\C_Sharp_Aulas\\Heranca\\Heranca.csproj",
+      "projectName": "Heranca",
+      "projectPath": "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\Projects_Paralelos\\C_Sharp_Aulas\\Heranca\\Heranca.csproj",
+      "packagesPath": "C:\\Users\\Portaria1 Unlimited\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\Projects_Paralelos\\C_Sharp_Aulas\\Heranca\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Portaria1 Unlimited\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> e2983ba3e6fdcb6b8c2eb092ad2a8974026f9ca5
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -95,8 +110,13 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\MARIO TORRES\\Documents\\Git_Compart\\C_Sharp_Aulas\\Heranca-master\\Pessoa\\Cadastro.csproj": {
               "projectPath": "C:\\Users\\MARIO TORRES\\Documents\\Git_Compart\\C_Sharp_Aulas\\Heranca-master\\Pessoa\\Cadastro.csproj"
+=======
+            "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\Projects_Paralelos\\C_Sharp_Aulas\\Pessoa\\Cadastro.csproj": {
+              "projectPath": "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\Projects_Paralelos\\C_Sharp_Aulas\\Pessoa\\Cadastro.csproj"
+>>>>>>> e2983ba3e6fdcb6b8c2eb092ad2a8974026f9ca5
             }
           }
         }
@@ -124,7 +144,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+>>>>>>> e2983ba3e6fdcb6b8c2eb092ad2a8974026f9ca5
       }
     }
   }

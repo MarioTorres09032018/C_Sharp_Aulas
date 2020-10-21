@@ -1,10 +1,18 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "8W7dhJ5YxCbflHsN3E/GP9426C/X/Ar+nOpNge0d6eCw/9dRDSv6wVrC62mZWFZCWj0TUeCgd89Zf8pHIYuVpA==",
   "success": true,
   "projectFilePath": "C:\\Users\\MARIO TORRES\\Documents\\Git_Compart\\C_Sharp_Aulas\\Heranca-master\\Heranca\\Heranca.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MARIO TORRES\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+=======
+  "dgSpecHash": "juAjJH/G4u73weKR0m+nAYZonlP43esOdXCOr2DG6PtQjyIYPNjyJHCO0jCMFkd9TyVvGEYDbRBy0KjD0gILAA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Portaria1 Unlimited\\Documents\\Visual Studio 2019\\Projects_Paralelos\\C_Sharp_Aulas\\Heranca\\Heranca.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Portaria1 Unlimited\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+>>>>>>> e2983ba3e6fdcb6b8c2eb092ad2a8974026f9ca5
   ],
   "logs": []
 }

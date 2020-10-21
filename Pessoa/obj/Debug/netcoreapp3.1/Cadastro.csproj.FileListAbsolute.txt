@@ -43,3 +43,27 @@ C:\Users\MARIO TORRES\Documents\Git_Compart\C_Sharp_Aulas\Heranca-master\Pessoa\
 C:\Users\MARIO TORRES\Documents\Git_Compart\C_Sharp_Aulas\Heranca-master\Pessoa\obj\Debug\netcoreapp3.1\Cadastro.csproj.CoreCompileInputs.cache
 C:\Users\MARIO TORRES\Documents\Git_Compart\C_Sharp_Aulas\Heranca-master\Pessoa\obj\Debug\netcoreapp3.1\Cadastro.dll
 C:\Users\MARIO TORRES\Documents\Git_Compart\C_Sharp_Aulas\Heranca-master\Pessoa\obj\Debug\netcoreapp3.1\Cadastro.pdb
+<<<<<<< HEAD
+=======
+C:\Users\Portaria1 Unlimited\Documents\Visual Studio 2019\Projects_Paralelos\C_Sharp_Aulas\Pessoa\bin\Debug\netcoreapp3.1\Cadastro.deps.json
+C:\Users\Portaria1 Unlimited\Documents\Visual Studio 2019\Projects_Paralelos\C_Sharp_Aulas\Pessoa\bin\Debug\netcoreapp3.1\Cadastro.dll
+C:\Users\Portaria1 Unlimited\Documents\Visual Studio 2019\Projects_Paralelos\C_Sharp_Aulas\Pessoa\bin\Debug\netcoreapp3.1\Cadastro.pdb
+C:\Users\Portaria1 Unlimited\Documents\Visual Studio 2019\Projects_Paralelos\C_Sharp_Aulas\Pessoa\obj\Debug\netcoreapp3.1\Cadastro.csprojAssemblyReference.cache
+C:\Users\Portaria1 Unlimited\Documents\Visual Studio 2019\Projects_Paralelos\C_Sharp_Aulas\Pessoa\obj\Debug\netcoreapp3.1\Cadastro.AssemblyInfoInputs.cache
+C:\Users\Portaria1 Unlimited\Documents\Visual Studio 2019\Projects_Paralelos\C_Sharp_Aulas\Pessoa\obj\Debug\netcoreapp3.1\Cadastro.AssemblyInfo.cs
+C:\Users\Portaria1 Unlimited\Documents\Visual Studio 2019\Projects_Paralelos\C_Sharp_Aulas\Pessoa\obj\Debug\netcoreapp3.1\Cadastro.csproj.CoreCompileInputs.cache
+C:\Users\Portaria1 Unlimited\Documents\Visual Studio 2019\Projects_Paralelos\C_Sharp_Aulas\Pessoa\obj\Debug\netcoreapp3.1\Cadastro.dll
+C:\Users\Portaria1 Unlimited\Documents\Visual Studio 2019\Projects_Paralelos\C_Sharp_Aulas\Pessoa\obj\Debug\netcoreapp3.1\Cadastro.pdb
+<<<<<<< HEAD
+C:\Users\Portaria1 Unlimited\Documents\Visual Studio 2019\git\C_Sharp_Aulas\Pessoa\bin\Debug\netcoreapp3.1\Cadastro.deps.json
+C:\Users\Portaria1 Unlimited\Documents\Visual Studio 2019\git\C_Sharp_Aulas\Pessoa\bin\Debug\netcoreapp3.1\Cadastro.dll
+C:\Users\Portaria1 Unlimited\Documents\Visual Studio 2019\git\C_Sharp_Aulas\Pessoa\bin\Debug\netcoreapp3.1\Cadastro.pdb
+C:\Users\Portaria1 Unlimited\Documents\Visual Studio 2019\git\C_Sharp_Aulas\Pessoa\obj\Debug\netcoreapp3.1\Cadastro.csprojAssemblyReference.cache
+C:\Users\Portaria1 Unlimited\Documents\Visual Studio 2019\git\C_Sharp_Aulas\Pessoa\obj\Debug\netcoreapp3.1\Cadastro.AssemblyInfoInputs.cache
+C:\Users\Portaria1 Unlimited\Documents\Visual Studio 2019\git\C_Sharp_Aulas\Pessoa\obj\Debug\netcoreapp3.1\Cadastro.AssemblyInfo.cs
+C:\Users\Portaria1 Unlimited\Documents\Visual Studio 2019\git\C_Sharp_Aulas\Pessoa\obj\Debug\netcoreapp3.1\Cadastro.csproj.CoreCompileInputs.cache
+C:\Users\Portaria1 Unlimited\Documents\Visual Studio 2019\git\C_Sharp_Aulas\Pessoa\obj\Debug\netcoreapp3.1\Cadastro.dll
+C:\Users\Portaria1 Unlimited\Documents\Visual Studio 2019\git\C_Sharp_Aulas\Pessoa\obj\Debug\netcoreapp3.1\Cadastro.pdb
+=======
+>>>>>>> 80c9b9632691aac474c766a33fcb3af843b1b3db
+>>>>>>> e2983ba3e6fdcb6b8c2eb092ad2a8974026f9ca5
