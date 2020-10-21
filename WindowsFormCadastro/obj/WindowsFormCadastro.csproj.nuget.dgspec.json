@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MARIO TORRES\\Documents\\Visual Studio 2019\\Projects Paralelos\\Heranca-master\\WindowsFormCadastro\\WindowsFormCadastro.csproj": {}
+    "C:\\Users\\MARIO TORRES\\Documents\\Git_Compart\\C_Sharp_Aulas\\Heranca-master\\WindowsFormCadastro\\WindowsFormCadastro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MARIO TORRES\\Documents\\Visual Studio 2019\\Projects Paralelos\\Heranca-master\\Pessoa\\Cadastro.csproj": {
+    "C:\\Users\\MARIO TORRES\\Documents\\Git_Compart\\C_Sharp_Aulas\\Heranca-master\\Pessoa\\Cadastro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MARIO TORRES\\Documents\\Visual Studio 2019\\Projects Paralelos\\Heranca-master\\Pessoa\\Cadastro.csproj",
+        "projectUniqueName": "C:\\Users\\MARIO TORRES\\Documents\\Git_Compart\\C_Sharp_Aulas\\Heranca-master\\Pessoa\\Cadastro.csproj",
         "projectName": "Cadastro",
-        "projectPath": "C:\\Users\\MARIO TORRES\\Documents\\Visual Studio 2019\\Projects Paralelos\\Heranca-master\\Pessoa\\Cadastro.csproj",
+        "projectPath": "C:\\Users\\MARIO TORRES\\Documents\\Git_Compart\\C_Sharp_Aulas\\Heranca-master\\Pessoa\\Cadastro.csproj",
         "packagesPath": "C:\\Users\\MARIO TORRES\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MARIO TORRES\\Documents\\Visual Studio 2019\\Projects Paralelos\\Heranca-master\\Pessoa\\obj\\",
+        "outputPath": "C:\\Users\\MARIO TORRES\\Documents\\Git_Compart\\C_Sharp_Aulas\\Heranca-master\\Pessoa\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MARIO TORRES\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,18 +58,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MARIO TORRES\\Documents\\Visual Studio 2019\\Projects Paralelos\\Heranca-master\\WindowsFormCadastro\\WindowsFormCadastro.csproj": {
+    "C:\\Users\\MARIO TORRES\\Documents\\Git_Compart\\C_Sharp_Aulas\\Heranca-master\\WindowsFormCadastro\\WindowsFormCadastro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MARIO TORRES\\Documents\\Visual Studio 2019\\Projects Paralelos\\Heranca-master\\WindowsFormCadastro\\WindowsFormCadastro.csproj",
+        "projectUniqueName": "C:\\Users\\MARIO TORRES\\Documents\\Git_Compart\\C_Sharp_Aulas\\Heranca-master\\WindowsFormCadastro\\WindowsFormCadastro.csproj",
         "projectName": "WindowsFormCadastro",
-        "projectPath": "C:\\Users\\MARIO TORRES\\Documents\\Visual Studio 2019\\Projects Paralelos\\Heranca-master\\WindowsFormCadastro\\WindowsFormCadastro.csproj",
+        "projectPath": "C:\\Users\\MARIO TORRES\\Documents\\Git_Compart\\C_Sharp_Aulas\\Heranca-master\\WindowsFormCadastro\\WindowsFormCadastro.csproj",
         "packagesPath": "C:\\Users\\MARIO TORRES\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MARIO TORRES\\Documents\\Visual Studio 2019\\Projects Paralelos\\Heranca-master\\WindowsFormCadastro\\obj\\",
+        "outputPath": "C:\\Users\\MARIO TORRES\\Documents\\Git_Compart\\C_Sharp_Aulas\\Heranca-master\\WindowsFormCadastro\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MARIO TORRES\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -85,8 +85,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\MARIO TORRES\\Documents\\Visual Studio 2019\\Projects Paralelos\\Heranca-master\\Pessoa\\Cadastro.csproj": {
-                "projectPath": "C:\\Users\\MARIO TORRES\\Documents\\Visual Studio 2019\\Projects Paralelos\\Heranca-master\\Pessoa\\Cadastro.csproj"
+              "C:\\Users\\MARIO TORRES\\Documents\\Git_Compart\\C_Sharp_Aulas\\Heranca-master\\Pessoa\\Cadastro.csproj": {
+                "projectPath": "C:\\Users\\MARIO TORRES\\Documents\\Git_Compart\\C_Sharp_Aulas\\Heranca-master\\Pessoa\\Cadastro.csproj"
               }
             }
           }
@@ -117,7 +117,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

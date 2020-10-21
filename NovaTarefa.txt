@@ -1,6 +1,6 @@
 *Classe pessoa
 
-*crir Classe cargo: Vendedor, Assistente Adm, Analista 
+*criar Classe cargo: Vendedor, Assistente Adm, Analista 
 
 *Propriedade 
 
@@ -11,7 +11,7 @@ Assistente Adm - Salário Base
 Analista - Salário e Horas Trblhds
 
 
-*Clss Empregado:Pessoa e Cargo
+*Classe Empregado:Pessoa e Cargo
 Criar Case 6
 
   
@@ -19,8 +19,8 @@ Criar Case 6
 
 assistente e analista Pj herdarão de pessoa
 
-sve o empregdo em rquivo diferente
+salve o empregdo em rquivo diferente
 empregdo 
-pesso
+pessoa
 
 
